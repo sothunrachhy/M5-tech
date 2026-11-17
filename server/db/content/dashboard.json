@@ -1,0 +1,187 @@
+[
+  {
+    "slug": "medicine-ledger",
+    "icon": "activity",
+    "name": { "en": "Medicine Ledger", "km": "បញ្ជីឱសថ" },
+    "movementsTitle": { "en": "Recent Ward Consumption Movements", "km": "ចលនាការប្រើប្រាស់ឱសថតាមផ្នែកថ្មីៗ" },
+    "locationLabel": { "en": "Ward", "km": "ផ្នែក" },
+    "auditId": "LED-2026-089",
+    "toastTitle": { "en": "Manual Errors Eliminated", "km": "លុបបំបាត់កំហុសដោយដៃ" },
+    "toastCaption": { "en": "Spreadsheet workflows replaced", "km": "ជំនួសការងារលើ Spreadsheet" },
+    "metrics": [
+      {
+        "label": { "en": "FEFO Batches", "km": "បាច់ឱសថ FEFO" },
+        "tone": "blue", "icon": "database",
+        "values": {
+          "7": { "value": "1,385", "delta": 3.0 },
+          "30": { "value": "1,420", "delta": 12.0, "sparkline": [14, 22, 18, 26, 24, 33, 30, 41, 46, 58] },
+          "90": { "value": "1,512", "delta": 21.0 }
+        }
+      },
+      {
+        "label": { "en": "Daily Consumption", "km": "ការប្រើប្រាស់ប្រចាំថ្ងៃ" },
+        "unit": { "en": "Units", "km": "ឯកតា" },
+        "tone": "purple", "icon": "shopping-cart",
+        "values": {
+          "7": { "value": "361", "delta": 4.0 },
+          "30": { "value": "384", "delta": 8.0, "sparkline": [10, 14, 12, 20, 17, 22, 30, 26, 38, 47] },
+          "90": { "value": "402", "delta": 15.0 }
+        }
+      },
+      {
+        "label": { "en": "Pending Wards", "km": "ផ្នែករង់ចាំ" },
+        "unit": { "en": "Requisitions", "km": "សំណើ" },
+        "caption": { "en": "Emergency & ICU", "km": "បន្ទាន់ និង ICU" },
+        "tone": "amber", "icon": "hourglass",
+        "values": {
+          "7": { "value": "2" },
+          "30": { "value": "3", "sparkline": [8, 12, 10, 18, 14, 22, 19, 30, 26, 34] },
+          "90": { "value": "6" }
+        }
+      },
+      {
+        "label": { "en": "Stock Ledger", "km": "តុល្យភាពស្តុក" },
+        "unit": { "en": "Balanced", "km": "តុល្យភាព" },
+        "unitAccent": true,
+        "caption": { "en": "Non-negative audit", "km": "សវនកម្មគ្មានសមតុល្យអវិជ្ជមាន" },
+        "tone": "green", "icon": "bar-chart",
+        "values": {
+          "7": { "value": "100%" },
+          "30": { "value": "100%", "sparkline": [6, 10, 9, 15, 13, 20, 24, 22, 31, 40] },
+          "90": { "value": "100%" }
+        }
+      }
+    ],
+    "movements": [
+      { "ref": "REQ-4821", "item": { "en": "Paracetamol 500mg — Batch PX-2207", "km": "ប៉ារ៉ាសេតាម៉ុល 500mg — បាច់ PX-2207" }, "location": { "en": "Emergency", "km": "បន្ទាន់" }, "quantity": 120, "unit": { "en": "tabs", "km": "គ្រាប់" }, "status": "completed", "minsAgo": 4 },
+      { "ref": "REQ-4820", "item": { "en": "Ceftriaxone 1g — Batch CF-1189", "km": "សេហ្វទ្រីអាក់សូន 1g — បាច់ CF-1189" }, "location": { "en": "ICU", "km": "ICU" }, "quantity": 24, "unit": { "en": "vials", "km": "ដប" }, "status": "pending", "minsAgo": 11 },
+      { "ref": "REQ-4819", "item": { "en": "Normal Saline 0.9% 500ml", "km": "សេរ៉ូមអំបិល 0.9% 500ml" }, "location": { "en": "Surgical", "km": "វះកាត់" }, "quantity": 40, "unit": { "en": "bags", "km": "ថង់" }, "status": "completed", "minsAgo": 26 },
+      { "ref": "REQ-4818", "item": { "en": "Amoxicillin 250mg — Batch AM-3310", "km": "អាម៉ុកស៊ីស៊ីលីន 250mg — បាច់ AM-3310" }, "location": { "en": "Paediatrics", "km": "កុមារ" }, "quantity": 60, "unit": { "en": "caps", "km": "គ្រាប់" }, "status": "completed", "minsAgo": 43 },
+      { "ref": "REQ-4817", "item": { "en": "Insulin Glargine 100IU/ml", "km": "អាំងស៊ុយលីន Glargine 100IU/ml" }, "location": { "en": "ICU", "km": "ICU" }, "quantity": 6, "unit": { "en": "pens", "km": "ប៊ិច" }, "status": "flagged", "minsAgo": 58 },
+      { "ref": "REQ-4816", "item": { "en": "Omeprazole 20mg — Batch OM-0912", "km": "អូមេប្រាហ្សូល 20mg — បាច់ OM-0912" }, "location": { "en": "Medical", "km": "វេជ្ជសាស្ត្រ" }, "quantity": 90, "unit": { "en": "caps", "km": "គ្រាប់" }, "status": "completed", "minsAgo": 81 }
+    ]
+  },
+  {
+    "slug": "qr-attendance",
+    "icon": "qr-code",
+    "name": { "en": "QR Attendance", "km": "វត្តមានតាម QR" },
+    "movementsTitle": { "en": "Recent Check-in Events", "km": "ការចុះវត្តមានថ្មីៗ" },
+    "locationLabel": { "en": "Gate", "km": "ច្រកចូល" },
+    "auditId": "ATT-2026-214",
+    "toastTitle": { "en": "Payroll Disputes Resolved", "km": "ដោះស្រាយវិវាទប្រាក់បៀវត្ស" },
+    "toastCaption": { "en": "Every scan is time-stamped", "km": "រាល់ការស្កេនមានកត់ត្រាពេលវេលា" },
+    "metrics": [
+      {
+        "label": { "en": "Check-ins", "km": "ការចុះវត្តមាន" },
+        "tone": "blue", "icon": "scan-line",
+        "values": {
+          "7": { "value": "1,842", "delta": 5.0 },
+          "30": { "value": "7,950", "delta": 6.0, "sparkline": [20, 28, 26, 35, 40, 38, 52, 49, 60, 66] },
+          "90": { "value": "23,410", "delta": 9.0 }
+        }
+      },
+      {
+        "label": { "en": "On-time Rate", "km": "អត្រាមកទាន់ពេល" },
+        "tone": "purple", "icon": "clock",
+        "values": {
+          "7": { "value": "96.4%", "delta": 3.0 },
+          "30": { "value": "95.1%", "delta": 2.0, "sparkline": [70, 74, 72, 80, 78, 84, 86, 85, 90, 96] },
+          "90": { "value": "93.8%", "delta": 4.0 }
+        }
+      },
+      {
+        "label": { "en": "Late Arrivals", "km": "មកយឺត" },
+        "unit": { "en": "Staff", "km": "នាក់" },
+        "caption": { "en": "Morning shift", "km": "វេនព្រឹក" },
+        "tone": "amber", "icon": "hourglass",
+        "values": {
+          "7": { "value": "11" },
+          "30": { "value": "46", "sparkline": [18, 15, 17, 13, 14, 12, 15, 11, 12, 11] },
+          "90": { "value": "152" }
+        }
+      },
+      {
+        "label": { "en": "Scanners Online", "km": "ម៉ាស៊ីនស្កេនដំណើរការ" },
+        "unit": { "en": "Synced", "km": "សមកាលកម្ម" },
+        "unitAccent": true,
+        "caption": { "en": "All gates reporting", "km": "គ្រប់ច្រកកំពុងរាយការណ៍" },
+        "tone": "green", "icon": "smartphone",
+        "values": {
+          "7": { "value": "14/14" },
+          "30": { "value": "14/14", "sparkline": [9, 11, 12, 12, 13, 13, 14, 14, 14, 14] },
+          "90": { "value": "14/14" }
+        }
+      }
+    ],
+    "movements": [
+      { "ref": "SCN-90412", "item": { "en": "Line A — Morning shift", "km": "ខ្សែ A — វេនព្រឹក" }, "location": { "en": "Gate 1", "km": "ច្រក ១" }, "quantity": 48, "unit": { "en": "staff", "km": "នាក់" }, "status": "completed", "minsAgo": 3 },
+      { "ref": "SCN-90411", "item": { "en": "Warehouse crew", "km": "ក្រុមការងារឃ្លាំង" }, "location": { "en": "Gate 3", "km": "ច្រក ៣" }, "quantity": 16, "unit": { "en": "staff", "km": "នាក់" }, "status": "completed", "minsAgo": 9 },
+      { "ref": "SCN-90410", "item": { "en": "Late arrivals batch", "km": "ក្រុមមកយឺត" }, "location": { "en": "Gate 1", "km": "ច្រក ១" }, "quantity": 5, "unit": { "en": "staff", "km": "នាក់" }, "status": "flagged", "minsAgo": 18 },
+      { "ref": "SCN-90409", "item": { "en": "Office team", "km": "ក្រុមការិយាល័យ" }, "location": { "en": "Main lobby", "km": "សាលធំ" }, "quantity": 32, "unit": { "en": "staff", "km": "នាក់" }, "status": "completed", "minsAgo": 27 },
+      { "ref": "SCN-90408", "item": { "en": "Contractor visit", "km": "ការមកជួបរបស់អ្នកម៉ៅការ" }, "location": { "en": "Gate 2", "km": "ច្រក ២" }, "quantity": 4, "unit": { "en": "visitors", "km": "ភ្ញៀវ" }, "status": "pending", "minsAgo": 35 },
+      { "ref": "SCN-90407", "item": { "en": "Line B — Morning shift", "km": "ខ្សែ B — វេនព្រឹក" }, "location": { "en": "Gate 2", "km": "ច្រក ២" }, "quantity": 51, "unit": { "en": "staff", "km": "នាក់" }, "status": "completed", "minsAgo": 52 }
+    ]
+  },
+  {
+    "slug": "stock-ledger",
+    "icon": "layers",
+    "name": { "en": "Stock Ledger", "km": "បញ្ជីស្តុក" },
+    "movementsTitle": { "en": "Recent Warehouse Movements", "km": "ចលនាឃ្លាំងថ្មីៗ" },
+    "locationLabel": { "en": "Warehouse", "km": "ឃ្លាំង" },
+    "auditId": "STK-2026-031",
+    "toastTitle": { "en": "Stock Counts Reconciled", "km": "ការរាប់ស្តុកត្រូវគ្នា" },
+    "toastCaption": { "en": "Real-time balance, every branch", "km": "សមតុល្យភ្លាមៗ គ្រប់សាខា" },
+    "metrics": [
+      {
+        "label": { "en": "SKUs Tracked", "km": "មុខទំនិញតាមដាន" },
+        "tone": "blue", "icon": "package",
+        "values": {
+          "7": { "value": "3,860", "delta": 1.0 },
+          "30": { "value": "3,860", "delta": 9.0, "sparkline": [30, 34, 33, 40, 44, 43, 50, 55, 58, 64] },
+          "90": { "value": "3,860", "delta": 24.0 }
+        }
+      },
+      {
+        "label": { "en": "Inbound", "km": "ទំនិញចូល" },
+        "unit": { "en": "Units", "km": "ឯកតា" },
+        "tone": "purple", "icon": "truck",
+        "values": {
+          "7": { "value": "8,420", "delta": 6.0 },
+          "30": { "value": "35,120", "delta": 7.0, "sparkline": [12, 18, 15, 24, 20, 28, 26, 35, 33, 42] },
+          "90": { "value": "101,900", "delta": 12.0 }
+        }
+      },
+      {
+        "label": { "en": "Low-stock Alerts", "km": "ជូនដំណឹងស្តុកទាប" },
+        "unit": { "en": "SKUs", "km": "មុខ" },
+        "caption": { "en": "Reorder queued", "km": "បានដាក់បញ្ជាទិញបន្ថែម" },
+        "tone": "amber", "icon": "alert",
+        "values": {
+          "7": { "value": "7" },
+          "30": { "value": "19", "sparkline": [4, 6, 5, 9, 7, 8, 6, 10, 8, 7] },
+          "90": { "value": "41" }
+        }
+      },
+      {
+        "label": { "en": "Ledger Integrity", "km": "ភាពត្រឹមត្រូវនៃបញ្ជី" },
+        "unit": { "en": "Reconciled", "km": "ផ្ទៀងផ្ទាត់រួច" },
+        "unitAccent": true,
+        "caption": { "en": "FIFO valuation audit", "km": "សវនកម្មតម្លៃ FIFO" },
+        "tone": "green", "icon": "bar-chart",
+        "values": {
+          "7": { "value": "100%" },
+          "30": { "value": "100%", "sparkline": [8, 12, 11, 16, 15, 21, 25, 24, 32, 41] },
+          "90": { "value": "100%" }
+        }
+      }
+    ],
+    "movements": [
+      { "ref": "GRN-7731", "item": { "en": "Cement 50kg — Supplier delivery", "km": "ស៊ីម៉ងត៍ 50kg — ការដឹកជញ្ជូនពីអ្នកផ្គត់ផ្គង់" }, "location": { "en": "Central", "km": "ឃ្លាំងកណ្តាល" }, "quantity": 400, "unit": { "en": "bags", "km": "បាវ" }, "status": "completed", "minsAgo": 6 },
+      { "ref": "TRF-2290", "item": { "en": "Steel rebar 12mm", "km": "ដែកសរសៃ 12mm" }, "location": { "en": "Branch North", "km": "សាខាខាងជើង" }, "quantity": 85, "unit": { "en": "pcs", "km": "ដើម" }, "status": "pending", "minsAgo": 14 },
+      { "ref": "ADJ-0144", "item": { "en": "Paint 18L — count variance", "km": "ថ្នាំលាប 18L — ភាពខុសគ្នានៃការរាប់" }, "location": { "en": "Branch East", "km": "សាខាខាងកើត" }, "quantity": 3, "unit": { "en": "pails", "km": "ធុង" }, "status": "flagged", "minsAgo": 29 },
+      { "ref": "GRN-7730", "item": { "en": "PVC pipe 4in", "km": "បំពង់ PVC 4in" }, "location": { "en": "Central", "km": "ឃ្លាំងកណ្តាល" }, "quantity": 150, "unit": { "en": "pcs", "km": "ដើម" }, "status": "completed", "minsAgo": 47 },
+      { "ref": "ISS-5512", "item": { "en": "Roofing sheet 0.4mm", "km": "ស័ង្កសីប្រក់ដំបូល 0.4mm" }, "location": { "en": "Branch West", "km": "សាខាខាងលិច" }, "quantity": 60, "unit": { "en": "sheets", "km": "សន្លឹក" }, "status": "completed", "minsAgo": 63 },
+      { "ref": "GRN-7729", "item": { "en": "Tile adhesive 25kg", "km": "កាវបិទការ៉ូ 25kg" }, "location": { "en": "Central", "km": "ឃ្លាំងកណ្តាល" }, "quantity": 220, "unit": { "en": "bags", "km": "បាវ" }, "status": "completed", "minsAgo": 88 }
+    ]
+  }
+]

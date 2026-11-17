@@ -1,0 +1,7 @@
+# Not needed on Vercel (keeps uploads small when deploying with the CLI)
+node_modules
+client/dist
+server/test
+docker-compose.yml
+.claude
+*.log

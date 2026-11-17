@@ -1,0 +1,98 @@
+[
+  {
+    "slug": "customized-development",
+    "icon": "Sliders",
+    "title": {
+      "en": "Customized Development",
+      "km": "ការអភិវឌ្ឍន៍តាមតម្រូវការផ្ទាល់"
+    },
+    "description": {
+      "en": "We build systems around your specific operations and workflow rules, rather than forcing your team into generic, rigid off-the-shelf software.",
+      "km": "យើងបង្កើតប្រព័ន្ធស្របតាមដំណើរការជាក់ស្តែង និងច្បាប់អាជីវកម្មរបស់អ្នក ជាជាងបង្ខំក្រុមការងារអ្នកឱ្យប្រើសូហ្វវែរទូទៅដែលរឹងស្តូក។"
+    },
+    "badge": {
+      "en": "100% Bespoke",
+      "km": "ផ្ទាល់ខ្លួន ១០០%"
+    }
+  },
+  {
+    "slug": "business-focused",
+    "icon": "Target",
+    "title": {
+      "en": "Business-Focused Solutions",
+      "km": "ដំណោះស្រាយផ្តោតលើផលចំណេញអាជីវកម្ម"
+    },
+    "description": {
+      "en": "We prioritize outcomes that matter to leadership: reducing staff manual hours, preventing financial leakage, and ensuring accurate audit records.",
+      "km": "យើងផ្តោតលើលទ្ធផលជាក់ស្តែងដែលថ្នាក់ដឹកនាំត្រូវការ៖ កាត់បន្ថយម៉ោងការងារដោយដៃ ទប់ស្កាត់ការបាត់បង់ថវិកា និងធានាភាពត្រឹមត្រូវនៃទិន្នន័យ។"
+    },
+    "badge": {
+      "en": "ROI Driven",
+      "km": "ផ្តល់ផលចំណេញ"
+    }
+  },
+  {
+    "slug": "modern-technologies",
+    "icon": "Code2",
+    "title": {
+      "en": "Modern Technologies",
+      "km": "បច្ចេកវិទ្យាទំនើប និងរឹងមាំ"
+    },
+    "description": {
+      "en": "Constructed with modern production stacks (React, Vite, Node.js, PostgreSQL, Tailwind) for ultra-fast loading, bank-grade security, and durability.",
+      "km": "សាងសង់ឡើងជាមួយបច្ចេកវិទ្យាស្តង់ដារពិភពលោក (React, Vite, Node.js, PostgreSQL, Tailwind) សម្រាប់ល្បឿនលឿន សុវត្ថិភាពខ្ពស់ និងរឹងមាំ។"
+    },
+    "badge": {
+      "en": "Future Proof",
+      "km": "មិនហួសសម័យ"
+    }
+  },
+  {
+    "slug": "user-friendly",
+    "icon": "Layout",
+    "title": {
+      "en": "User-Friendly Interfaces",
+      "km": "ផ្ទាំងប្រើប្រាស់ងាយស្រួលយល់"
+    },
+    "description": {
+      "en": "Designed with clean, intuitive layouts that minimize staff learning curves and eliminate user errors from day one of deployment.",
+      "km": "រចនាឡើងជាមួយប្លង់ច្បាស់លាស់ ងាយស្រួលមើល ជួយឱ្យបុគ្គលិកឆាប់ចេះប្រើ និងកាត់បន្ថយកំហុសឆ្គងតាំងពីថ្ងៃដំបូង។"
+    },
+    "badge": {
+      "en": "Zero Confusion",
+      "km": "មិនច្របូកច្របល់"
+    }
+  },
+  {
+    "slug": "scalable-systems",
+    "icon": "TrendingUp",
+    "title": {
+      "en": "Scalable Systems",
+      "km": "ប្រព័ន្ធងាយស្រួលពង្រីកទៅមុខ"
+    },
+    "description": {
+      "en": "Engineered with clean architectural separation, transactional database integrity, and modular code that expands effortlessly as your business grows.",
+      "km": "រៀបចំកូដតាមស្ថាបត្យកម្មស្តង់ដារ ទិន្នន័យត្រឹមត្រូវ និងរចនាសម្ព័ន្ធម៉ូឌុល ដែលងាយស្រួលបន្ថែមមុខងារថ្មីៗពេលអាជីវកម្មរីកធំឡើង។"
+    },
+    "badge": {
+      "en": "Built to Scale",
+      "km": "ត្រៀមកំណើន"
+    }
+  },
+  {
+    "slug": "ongoing-support",
+    "icon": "Headphones",
+    "title": {
+      "en": "Ongoing Technical Support",
+      "km": "ការគាំទ្របច្ចេកទេសជាប់លាប់"
+    },
+    "description": {
+      "en": "Direct access to the engineers who wrote your system. We provide prompt support, automated backups, and server maintenance post-launch.",
+      "km": "ទំនាក់ទំនងផ្ទាល់ជាមួយវិស្វករដែលសរសេរប្រព័ន្ធរបស់អ្នក។ យើងផ្តល់ការឆ្លើយតបរហ័ស ការបម្រុងទុកទិន្នន័យស្វ័យប្រវត្តិ និងការថែទាំម៉ាស៊ីនមេ។"
+    },
+    "badge": {
+      "en": "Direct Partnership",
+      "km": "ដៃគូផ្ទាល់"
+    }
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "faq-cost",
+    "question": {
+      "en": "How much does a custom software system cost?",
+      "km": "តើការអភិវឌ្ឍប្រព័ន្ធសូហ្វវែរផ្ទាល់ខ្លួនមានតម្លៃប្រហែលប៉ុន្មាន?"
+    },
+    "answer": {
+      "en": "The cost depends on project scope, complexity, and required modules. Compact systems or focused utility apps typically start under $500–$1,000, while comprehensive management platforms (such as clinic inventory with FEFO ledger or full HR systems) range between $1,000 to $5,000+. Because we are a dedicated freelance engineering team without excessive agency overhead, we deliver enterprise-grade quality at highly competitive, transparent rates. We offer fixed-price quotes after initial scope discovery.",
+      "km": "តម្លៃអាស្រ័យលើវិសាលភាពគម្រោង ភាពស្មុគស្មាញ និងម៉ូឌុលដែលត្រូវការ។ ប្រព័ន្ធតូចល្មម ឬកម្មវិធីប្រើប្រាស់ជាក់លាក់ ជាទូទៅចាប់ផ្តើមពី $៣០០–$១,០០០ ចំណែកប្រព័ន្ធគ្រប់គ្រងស្ថាប័នធំៗ (ដូចជាប្រព័ន្ធស្តុកឱសថ FEFO ឬប្រព័ន្ធ HR ពេញលេញ) មានចន្លោះពី $១,០០០ ដល់ $៥,០០០+។ ដោយសារយើងជាក្រុមវិស្វករឯករាជ្យ គ្មានការចំណាយប្រតិបត្តិការក្រុមហ៊ុនធំៗហួសហេតុ យើងផ្តល់ជូនគុណភាពស្តង់ដារសហគ្រាសក្នុងតម្លៃសមរម្យ និងតម្លាភាពបំផុត។ យើងផ្តល់តម្លៃកំណត់ច្បាស់លាស់ (Fixed Price) បន្ទាប់ពីការពិភាក្សាស្វែងយល់តម្រូវការដំបូង។"
+    },
+    "category": {
+      "en": "Pricing & Budget",
+      "km": "តម្លៃ និងថវិកា"
+    }
+  },
+  {
+    "slug": "faq-timeline",
+    "question": {
+      "en": "How long does development take?",
+      "km": "តើការអភិវឌ្ឍន៍ប្រព័ន្ធចំណាយពេលប៉ុន្មាន?"
+    },
+    "answer": {
+      "en": "A focused application or prototype usually takes 2 to 4 weeks. Full-featured business management platforms typically require 1 to 3 months depending on the number of roles, complex reporting requirements, and integrations. We work with iterative milestones, giving you functional review builds every 1–2 weeks so you can test features as they are built.",
+      "km": "កម្មវិធីទំហំល្មម ឬគំរូតេស្ត (Prototype) ជាទូទៅចំណាយពេលពី ២ ទៅ ៤ សប្តាហ៍។ ចំណែកប្រព័ន្ធគ្រប់គ្រងអាជីវកម្មពេញលេញជាទូទៅត្រូវការពេលពី ១ ទៅ ៣ ខែ អាស្រ័យលើចំនួនតួនាទីអ្នកប្រើប្រាស់ របាយការណ៍ស្មុគស្មាញ និងការភ្ជាប់ប្រព័ន្ធខាងក្រៅ។ យើងធ្វើការតាមដំណាក់កាល ដោយប្រគល់ប្រព័ន្ធឱ្យតេស្តរៀងរាល់ ១-២ សប្តាហ៍ម្តង ដើម្បីឱ្យអ្នកសាកល្បងមុខងារថ្មីៗជាបន្តបន្ទាប់។"
+    },
+    "category": {
+      "en": "Timeline & Delivery",
+      "km": "រយៈពេល និងការប្រគល់"
+    }
+  },
+  {
+    "slug": "faq-requirements",
+    "question": {
+      "en": "Can you develop a system based on our requirements?",
+      "km": "តើអ្នកអាចបង្កើតប្រព័ន្ធតាមតម្រូវការជាក់ស្តែងរបស់យើងបានទេ?"
+    },
+    "answer": {
+      "en": "Yes, 100%. Custom development is our core specialty. Whether your workflow is currently recorded in paper logbooks, complex Excel spreadsheets, or a legacy tool that no longer meets your needs, we analyze your exact workflow and build a tailored system with your exact fields, approval stages, and reporting formats.",
+      "km": "បាទ ពិតជាបាន ១០០%។ ការអភិវឌ្ឍតាមតម្រូវការផ្ទាល់ គឺជាជំនាញស្នូលរបស់យើង។ មិនថាបច្ចុប្បន្នអ្នកកំពុងកត់ត្រាលើក្រដាស សៀវភៅ Excel ស្មុគស្មាញ ឬប្រព័ន្ធចាស់ដែលលែងឆ្លើយតបនឹងតម្រូវការ យើងនឹងវិភាគដំណើរការជាក់ស្តែងរបស់អ្នក ហើយបង្កើតប្រព័ន្ធដែលត្រូវនឹងទម្រង់ ដំណាក់កាលអនុម័ត និងគំរូរបាយការណ៍ដែលអ្នកចង់បាន។"
+    },
+    "category": {
+      "en": "Customization",
+      "km": "ការរៀបចំតាមតម្រូវការ"
+    }
+  },
+  {
+    "slug": "faq-hosting",
+    "question": {
+      "en": "Do you provide hosting and deployment?",
+      "km": "តើអ្នកមានសេវាកម្មដំឡើង និង Hosting លើ Cloud ដែរឬទេ?"
+    },
+    "answer": {
+      "en": "Yes. We handle end-to-end deployment. We configure Linux servers (e.g., Ubuntu on DigitalOcean, Linode, AWS, or your on-premise hardware), install and configure Nginx reverse proxies with SSL (HTTPS) encryption, set up production databases with automated backups, and provide your team with a ready-to-use live URL.",
+      "km": "បាទ មាន។ យើងរៀបចំការដំឡើងប្រព័ន្ធពីដើមដល់ចប់ (End-to-End)។ យើងកំណត់រចនាសម្ព័ន្ធ Linux Server (ដូចជា Ubuntu លើ DigitalOcean, Linode, AWS ឬម៉ាស៊ីនផ្ទាល់ខ្លួនរបស់អ្នក) ដំឡើង Nginx Reverse Proxy ជាមួយវិញ្ញាបនបត្រសុវត្ថិភាព SSL (HTTPS) រៀបចំទិន្នន័យ Backup ស្វ័យប្រវត្តិ និងប្រគល់តំណភ្ជាប់ Website ផ្លូវការដែលរួចរាល់សម្រាប់ប្រើប្រាស់។"
+    },
+    "category": {
+      "en": "Infrastructure",
+      "km": "ហេដ្ឋារចនាសម្ព័ន្ធ Server"
+    }
+  },
+  {
+    "slug": "faq-maintain-existing",
+    "question": {
+      "en": "Can you maintain an existing system?",
+      "km": "តើអ្នកអាចជួយកែកូដ ឬថែទាំប្រព័ន្ធចាស់ដែលមានស្រាប់បានទេ?"
+    },
+    "answer": {
+      "en": "Yes. If you have an existing web or mobile system built with React, Node.js, Express, PostgreSQL, or modern JavaScript frameworks, we can audit the codebase, fix bugs, optimize database queries, add new features, or modernize the user interface.",
+      "km": "បាទ បាន។ ប្រសិនបើអ្នកមានប្រព័ន្ធវិបសាយ ឬ App ទូរស័ព្ទចាស់ដែលបង្កើតឡើងដោយ React, Node.js, Express, PostgreSQL ឬ JavaScript Frameworks ទំនើប យើងអាចពិនិត្យកូដ (Audit) ជួសជុលបញ្ហា Bug បង្កើនល្បឿនទិន្នន័យ បន្ថែមមុខងារថ្មីៗ ឬកែលម្អរូបរាង (UI) ឱ្យកាន់តែទាក់ទាញ។"
+    },
+    "category": {
+      "en": "Maintenance",
+      "km": "ការថែទាំ & កែលម្អ"
+    }
+  },
+  {
+    "slug": "faq-support",
+    "question": {
+      "en": "Do you provide technical support after deployment?",
+      "km": "តើអ្នកមានការគាំទ្របច្ចេកទេសក្រោយពេលដាក់ឱ្យប្រើប្រាស់ដែរឬទេ?"
+    },
+    "answer": {
+      "en": "Yes. Every project includes a post-launch warranty period for bug fixes and user guidance. Following that, we offer affordable monthly maintenance packages that cover scheduled database backups, security patches, server monitoring, and ongoing feature enhancements with fast response times.",
+      "km": "បាទ មានយ៉ាងពិតប្រាកដ។ គ្រប់គម្រោងទាំងអស់សុទ្ធតែមានរយៈពេលធានា (Warranty) ដោយឥតគិតថ្លៃសម្រាប់ការដោះស្រាយបញ្ហាបច្ចេកទេស និងការណែនាំអ្នកប្រើប្រាស់។ បន្ទាប់ពីនោះ យើងមានកញ្ចប់សេវាថែទាំប្រចាំខែក្នុងតម្លៃសមរម្យ ដែលគ្របដណ្តប់លើការ Backup ទិន្នន័យ ការពារសុវត្ថិភាព ការតាមដាន Server និងការបន្ថែមមុខងារថ្មីៗ ជាមួយការឆ្លើយតបរហ័ស។"
+    },
+    "category": {
+      "en": "Support & Warranty",
+      "km": "ការគាំទ្រ & ការធានា"
+    }
+  }
+]

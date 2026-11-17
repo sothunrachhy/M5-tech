@@ -1,0 +1,231 @@
+[
+  {
+    "slug": "web-app",
+    "icon": "Globe",
+    "title": {
+      "en": "Web Application Development",
+      "km": "ការអភិវឌ្ឍន៍កម្មវិធីវិបសាយ (Web Application)"
+    },
+    "tagline": {
+      "en": "High-performance cloud platforms and business tools",
+      "km": "ប្រព័ន្ធវិបសាយដំណើរការលឿន និងឧបករណ៍អាជីវកម្មទំនើប"
+    },
+    "description": {
+      "en": "We engineer intuitive, secure, and responsive web platforms designed to streamline operational workflows and connect staff, customers, and administrators in real time.",
+      "km": "យើងបង្កើតប្រព័ន្ធវិបសាយប្រកបដោយសុវត្ថិភាព ងាយស្រួលប្រើប្រាស់ និងដំណើរការលើគ្រប់ឧបករណ៍ ដើម្បីសម្រួលលំហូរការងារ និងតភ្ជាប់បុគ្គលិក អតិថិជន និងអ្នកគ្រប់គ្រងភ្លាមៗ។"
+    },
+    "highlights": {
+      "en": [
+        "Custom business platforms",
+        "Management dashboards & KPI monitors",
+        "Administrative & role-based portals",
+        "Client & partner self-service portals"
+      ],
+      "km": [
+        "ប្រព័ន្ធអាជីវកម្មផ្ទាល់ខ្លួនតាមតម្រូវការ",
+        "ផ្ទាំងគ្រប់គ្រង Dashboard & តាមដាន KPI",
+        "ប្រព័ន្ធរដ្ឋបាល និងបែងចែកសិទ្ធិអ្នកប្រើប្រាស់",
+        "វិបផតថលសេវាកម្មសម្រាប់អតិថិជន និងដៃគូ"
+      ]
+    },
+    "techStack": [
+      "React.js",
+      "Vite",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "REST APIs"
+    ],
+    "image": "/images/icon-dashboard.jpg"
+  },
+  {
+    "slug": "mobile-app",
+    "icon": "Smartphone",
+    "title": {
+      "en": "Mobile Application Development",
+      "km": "ការអភិវឌ្ឍន៍កម្មវិធីទូរស័ព្ទ (Mobile App)"
+    },
+    "tagline": {
+      "en": "Native & cross-platform applications for Android & iOS",
+      "km": "កម្មវិធី Android និង iOS ដំណើរការរលូន"
+    },
+    "description": {
+      "en": "Equip your staff and customers with responsive mobile apps featuring offline capabilities, camera/QR scanning, push notifications, and seamless backend synchronization.",
+      "km": "បំពាក់ជូនបុគ្គលិក និងអតិថិជនរបស់អ្នកនូវ App ទូរស័ព្ទទំនើប អាចដំណើរការពេលគ្មានអ៊ីនធឺណិត (Offline) ស្កេនកាមេរ៉ា/QR ការជូនដំណឹង Notification និងភ្ជាប់ទិន្នន័យស្វ័យប្រវត្តិ។"
+    },
+    "highlights": {
+      "en": [
+        "Android applications (Kotlin / Flutter)",
+        "iOS mobile applications",
+        "Cross-platform multi-device apps",
+        "QR verification & real-time mobile sync"
+      ],
+      "km": [
+        "កម្មវិធីទូរស័ព្ទ Android (Kotlin / Flutter)",
+        "កម្មវិធីទូរស័ព្ទ iOS",
+        "កម្មវិធីប្រើប្រាស់បានលើគ្រប់ប្រភេទឧបករណ៍",
+        "ការផ្ទៀងផ្ទាត់ QR Code & ភ្ជាប់ទិន្នន័យភ្លាមៗ"
+      ]
+    },
+    "techStack": [
+      "Flutter",
+      "React Native",
+      "Mobile REST APIs",
+      "Android Studio"
+    ],
+    "image": "/images/icon-mobile.jpg"
+  },
+  {
+    "slug": "management-systems",
+    "icon": "Briefcase",
+    "title": {
+      "en": "Business Management Systems",
+      "km": "ប្រព័ន្ធគ្រប់គ្រងអាជីវកម្ម (Management Systems)"
+    },
+    "tagline": {
+      "en": "End-to-end ERP, inventory & organizational software",
+      "km": "ប្រព័ន្ធគ្រប់គ្រងស្តុក ធនធានមនុស្ស និងស្ថាប័នពេញលេញ"
+    },
+    "description": {
+      "en": "Replace fragmented spreadsheets with consolidated management platforms that ensure non-negative stock balances, double-entry audit trails, and automated reporting.",
+      "km": "ជំនួសការប្រើប្រាស់ Excel ដោយប្រព័ន្ធគ្រប់គ្រងរួមមួយ ដែលធានាថាទិន្នន័យស្តុកមិនមានចំនួនដក មានកំណត់ត្រាបញ្ជីច្បាស់លាស់ និងទាញរបាយការណ៍ស្វ័យប្រវត្តិ។"
+    },
+    "highlights": {
+      "en": [
+        "Hospital & Medical Clinic Management Systems (HMS)",
+        "Warehouse & Multi-Branch Inventory Management",
+        "HR & Staff Attendance Tracking (QR & Biometric)",
+        "POS & Retail Sales Management",
+        "Stock & Medicine Consumption Ledger (FEFO)"
+      ],
+      "km": [
+        "ប្រព័ន្ធគ្រប់គ្រងមន្ទីរពេទ្យ និងគ្លីនិក (HMS)",
+        "ប្រព័ន្ធគ្រប់គ្រងស្តុកទំនិញច្រើនសាខា/ឃ្លាំង",
+        "ប្រព័ន្ធគ្រប់គ្រងបុគ្គលិក & កត់វត្តមាន QR",
+        "ប្រព័ន្ធលក់ និងគិតលុយ POS ស្តង់ដារ",
+        "បញ្ជីគ្រប់គ្រងស្តុកឱសថតាមលំដាប់ផុតកំណត់ (FEFO)"
+      ]
+    },
+    "techStack": [
+      "PostgreSQL Transactions",
+      "Express.js",
+      "React / Vue.js",
+      "ExcelJS",
+      "PDFKit"
+    ],
+    "image": "/images/icon-analytics.jpg"
+  },
+  {
+    "slug": "ui-ux",
+    "icon": "Palette",
+    "title": {
+      "en": "UI/UX Design",
+      "km": "ការរចនាបទពិសោធន៍អ្នកប្រើប្រាស់ (UI/UX Design)"
+    },
+    "tagline": {
+      "en": "Clean, frictionless interfaces engineered for business productivity",
+      "km": "ចំណុចប្រទាក់ស្អាត ងាយយល់ និងបង្កើនផលិតភាពការងារ"
+    },
+    "description": {
+      "en": "Our design philosophy focuses on cognitive ease, minimal click friction, accessibility, and high data density layouts that enable teams to complete work without confusion.",
+      "km": "ទស្សនវិជ្ជារចនារបស់យើងផ្តោតលើភាពងាយយល់ កាត់បន្ថយការចុចស្មុគស្មាញ និងរៀបចំប្លង់ទិន្នន័យឱ្យមានរបៀបរៀបរយ ដើម្បីឱ្យក្រុមការងារបំពេញការងារបានលឿនដោយមិនច្របូកច្របល់។"
+    },
+    "highlights": {
+      "en": [
+        "User interface (UI) system design",
+        "User experience (UX) journey optimization",
+        "Adaptive responsive layouts (Mobile/Tablet/Desktop)",
+        "Interactive prototype development"
+      ],
+      "km": [
+        "ការរចនាប្រព័ន្ធចំណុចប្រទាក់អ្នកប្រើ (UI Design)",
+        "ការបង្កើនប្រសិទ្ធភាពបទពិសោធន៍អ្នកប្រើ (UX Optimization)",
+        "ប្លង់សម្របតាមគ្រប់ទំហំអេក្រង់ (Mobile / Tablet / PC)",
+        "ការបង្កើតគំរូតេស្តដំណើរការ (Interactive Prototype)"
+      ]
+    },
+    "techStack": [
+      "Figma",
+      "Design Systems",
+      "Tailwind CSS",
+      "Framer Motion"
+    ],
+    "image": "/images/icon-experience.jpg"
+  },
+  {
+    "slug": "api-database",
+    "icon": "Database",
+    "title": {
+      "en": "API & Database Development",
+      "km": "ការអភិវឌ្ឍន៍ API & ស្ថាបត្យកម្មទិន្នន័យ (Database)"
+    },
+    "tagline": {
+      "en": "Secure data architectures with ACID consistency and high throughput",
+      "km": "ប្រព័ន្ធទិន្នន័យមានសុវត្ថិភាពខ្ពស់ និងមិនបាត់បង់ទិន្នន័យ"
+    },
+    "description": {
+      "en": "We construct resilient RESTful architectures, optimize complex database indexing, and implement atomic transactions to ensure 100% data integrity and tamper-proof audit trails.",
+      "km": "យើងកសាងប្រព័ន្ធ RESTful APIs រឹងមាំ រៀបចំ Indexing ទិន្នន័យឱ្យដំណើរការលឿន និងប្រើប្រាស់ ACID Transactions ដើម្បីធានាថាទិន្នន័យមិនបាត់បង់ ១០០%។"
+    },
+    "highlights": {
+      "en": [
+        "REST API architecture & documentation",
+        "PostgreSQL schema design & ACID transactions",
+        "Third-party system & webhook integrations",
+        "Automated database backups & data migration"
+      ],
+      "km": [
+        "ការរចនា និងឯកសារស្ថាបត្យកម្ម REST API",
+        "ការរចនា Schema & ប្រតិបត្តិការ ACID លើ PostgreSQL",
+        "ការតភ្ជាប់ប្រព័ន្ធខាងក្រៅ និង Webhook",
+        "ការបម្រុងទុកទិន្នន័យស្វ័យប្រវត្តិ (Automated Backup)"
+      ]
+    },
+    "techStack": [
+      "Node.js",
+      "PostgreSQL",
+      "node-postgres",
+      "JWT Authentication",
+      "Zod"
+    ],
+    "image": "/images/icon-chip.jpg"
+  },
+  {
+    "slug": "cloud-devops",
+    "icon": "Cloud",
+    "title": {
+      "en": "Cloud Hosting & Deployment",
+      "km": "សេវាកម្មដំឡើងម៉ាស៊ីនមេ & Cloud Hosting"
+    },
+    "tagline": {
+      "en": "Production-ready server provisioning, hardening & maintenance",
+      "km": "ការរៀបចំ Linux Server សុវត្ថិភាពខ្ពស់ និងថែទាំប្រព័ន្ធ"
+    },
+    "description": {
+      "en": "We configure and secure your Linux servers, set up high-performance Nginx reverse proxies with SSL certificates, configure firewall policies, and maintain uptime.",
+      "km": "យើងរៀបចំ និងពង្រឹងសុវត្ថិភាព Linux Servers ដំឡើង Nginx Reverse Proxy ជាមួយវិញ្ញាបនបត្រ SSL (HTTPS) រៀបចំ Firewall និងថែទាំដំណើរការប្រព័ន្ធមិនឱ្យគាំង។"
+    },
+    "highlights": {
+      "en": [
+        "Linux server configuration (Ubuntu / Debian)",
+        "Nginx reverse proxy & SSL / HTTPS provisioning",
+        "Cloud VPS infrastructure (DigitalOcean, AWS, Linode)",
+        "Process management (PM2), logs & routine maintenance"
+      ],
+      "km": [
+        "ការកំណត់រចនាសម្ព័ន្ធ Linux Server (Ubuntu / Debian)",
+        "ការដំឡើង Nginx Reverse Proxy & SSL (HTTPS)",
+        "ហេដ្ឋារចនាសម្ព័ន្ធ Cloud VPS (DigitalOcean, AWS, Linode)",
+        "ការគ្រប់គ្រង Process (PM2), Log & ការថែទាំជាប្រចាំ"
+      ]
+    },
+    "techStack": [
+      "Ubuntu Linux",
+      "Nginx",
+      "PM2",
+      "Let's Encrypt SSL",
+      "UFW Security"
+    ],
+    "image": "/images/icon-connectivity.jpg"
+  }
+]

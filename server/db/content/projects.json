@@ -1,0 +1,373 @@
+[
+  {
+    "slug": "medicine-stock-system",
+    "title": {
+      "en": "Medicine Stock Management System (MCIMS)",
+      "km": "ប្រព័ន្ធគ្រប់គ្រងស្តុកឱសថ & អ្នកជំងឺមន្ទីរពេទ្យ (MCIMS)"
+    },
+    "category": {
+      "en": "Management Systems",
+      "km": "ប្រព័ន្ធគ្រប់គ្រង"
+    },
+    "categories": [
+      "Web Applications",
+      "Management Systems"
+    ],
+    "badge": {
+      "en": "Demo Project / Case Study",
+      "km": "គំរូប្រព័ន្ធជាក់ស្តែង"
+    },
+    "summary": {
+      "en": "Enterprise hospital medicine consumption ledger and batch inventory tracking system with double-entry accounting guarantees.",
+      "km": "ប្រព័ន្ធគ្រប់គ្រងការប្រើប្រាស់ថ្នាំរបស់អ្នកជំងឺ និងតាមដានស្តុកឱសថក្នុងមន្ទីរពេទ្យ ជាមួយបញ្ជីកត់ត្រាទិន្នន័យត្រឹមត្រូវកម្រិតសហគ្រាស។"
+    },
+    "description": {
+      "en": "Designed to eliminate manual Excel tracking in hospital wards and clinical pharmacies. The system implements a strict First-Expired, First-Out (FEFO) allocation engine, atomic PostgreSQL transactions, and automatic dual-language Khmer/English reporting for ministerial audits.",
+      "km": "រចនាឡើងដើម្បីជំនួសការកត់ត្រាលើសៀវភៅ ឬ Excel ក្នុងអគារសម្រាកព្យាបាល និងឱសថស្ថានមន្ទីរពេទ្យ។ ប្រព័ន្ធមានមុខងាររៀបចំថ្នាំផុតកំណត់មុនចេញប្រើមុន (FEFO) ប្រតិបត្តិការទិន្នន័យមិនបាត់បង់ និងការទាញរបាយការណ៍ស្វ័យប្រវត្តិកម្រិតខ្ពស់ជាភាសាខ្មែរ និងអង់គ្លេស។"
+    },
+    "features": {
+      "en": [
+        "Patient Registration & Clinical Consumption History",
+        "Double-Entry Inventory Stock Ledger (Zero Negative Balances)",
+        "FEFO Batch Allocation Engine & Expiry Monitoring",
+        "Ward-to-Pharmacy Requisition & Approval Workflow",
+        "Automated Daily, Weekly Matrix, and Monthly Reconciliation Reports",
+        "Tamper-Proof Audit Trail with Before/After State Diffs"
+      ],
+      "km": [
+        "ការចុះឈ្មោះអ្នកជំងឺ និងប្រវត្តិកត់ត្រាការប្រើប្រាស់ថ្នាំ",
+        "បញ្ជីគ្រប់គ្រងស្តុកពីរជាន់ (ធានាថាស្តុកមិនមានចំនួនដក)",
+        "ប្រព័ន្ធរៀបចំថ្នាំតាមលំដាប់ផុតកំណត់ FEFO & ការដាស់តឿនមុនផុតកំណត់",
+        "លំហូរការងារស្នើសុំថ្នាំរវាងអគារសម្រាក និងឱសថស្ថានកណ្តាល",
+        "របាយការណ៍ស្វ័យប្រវត្តិ ប្រចាំថ្ងៃ សប្តាហ៍ និងប្រចាំខែទូទាត់ស្តុក",
+        "កំណត់ត្រាសវនកម្មរាល់ការកែប្រែទិន្នន័យ (Audit Trail)"
+      ]
+    },
+    "techStack": [
+      "Node.js 20",
+      "Express.js",
+      "PostgreSQL 17",
+      "React.js",
+      "Tailwind CSS",
+      "ExcelJS",
+      "PDFKit"
+    ],
+    "architecture": {
+      "type": "Full-Stack REST Architecture",
+      "database": "PostgreSQL with ACID Transactions",
+      "auth": "JWT with Ward-Scoped Role-Based Access Control (RBAC)",
+      "reporting": "Automated Dual-Language (Khmer & English) XLSX and PDF Generation"
+    },
+    "metrics": [
+      {
+        "label": {
+          "en": "Stock Integrity",
+          "km": "ភាពត្រឹមត្រូវនៃស្តុក"
+        },
+        "value": {
+          "en": "100% Immutable",
+          "km": "ត្រឹមត្រូវ ១០០%"
+        }
+      },
+      {
+        "label": {
+          "en": "Expiry Waste",
+          "km": "ការខូចថ្នាំផុតកំណត់"
+        },
+        "value": {
+          "en": "Minimised via FEFO",
+          "km": "កាត់បន្ថយតាម FEFO"
+        }
+      },
+      {
+        "label": {
+          "en": "Report Generation",
+          "km": "ការទាញរបាយការណ៍"
+        },
+        "value": {
+          "en": "Instant One-Click",
+          "km": "ចុចមួយភ្លែតបាន"
+        }
+      }
+    ],
+    "visual": "hospital-dash"
+  },
+  {
+    "slug": "hr-management-system",
+    "title": {
+      "en": "HR & Staff Management System",
+      "km": "ប្រព័ន្ធគ្រប់គ្រងធនធានមនុស្ស & បុគ្គលិក (HR Portal)"
+    },
+    "category": {
+      "en": "Management Systems",
+      "km": "ប្រព័ន្ធគ្រប់គ្រង"
+    },
+    "categories": [
+      "Web Applications",
+      "Management Systems"
+    ],
+    "badge": {
+      "en": "Demo Project / Case Study",
+      "km": "គំរូប្រព័ន្ធជាក់ស្តែង"
+    },
+    "summary": {
+      "en": "Centralized human resource administration portal for staff profiles, digital documents, multi-tier leave workflows, and performance records.",
+      "km": "ប្រព័ន្ធរដ្ឋបាលធនធានមនុស្សកណ្តាលសម្រាប់រក្សាទុកប្រវត្តិរូបបុគ្គលិក ឯកសារកិច្ចសន្យាឌីជីថល លំហូរសុំច្បាប់ និងកំណត់ត្រាការងារ។"
+    },
+    "description": {
+      "en": "A comprehensive staff management platform designed for institutions and growing businesses. Consolidates employee master records, digital contract archival, automated leave quota balances, department structures, and customizable monthly attendance summaries.",
+      "km": "ប្រព័ន្ធគ្រប់គ្រងបុគ្គលិកពេញលេញរៀបចំសម្រាប់ស្ថាប័ន និងក្រុមហ៊ុនកំពុងរីកចម្រើន។ ប្រមូលផ្តុំទិន្នន័យបុគ្គលិក ការរក្សាទុកឯកសារឌីជីថល ការគណនាសមតុល្យច្បាប់ឈប់សម្រាក និងការបូកសរុបម៉ោងការងារប្រចាំខែ។"
+    },
+    "features": {
+      "en": [
+        "Comprehensive Employee Profiles & Digital Document Storage",
+        "Automated Leave Balance Tracking (Annual, Sick, Special)",
+        "Multi-Tier Leave Approval Workflow with Status Notifications",
+        "Department, Position & Access Privilege Hierarchy",
+        "Staff Shift Scheduling & Monthly Attendance Reconciliation",
+        "Exportable Payroll-Ready Employee Workhour Reports"
+      ],
+      "km": [
+        "ប្រវត្តិរូបបុគ្គលិកពេញលេញ និងការរក្សាទុកឯកសារឌីជីថល",
+        "ការតាមដានច្បាប់ឈប់សម្រាកស្វ័យប្រវត្តិ (ប្រចាំឆ្នាំ ឈឺ ពិសេស)",
+        "ការអនុម័តច្បាប់ឈប់សម្រាកតាមលំដាប់ថ្នាក់ និងសារជូនដំណឹង",
+        "រចនាសម្ព័ន្ធនាយកដ្ឋាន តួនាទី និងសិទ្ធិប្រើប្រាស់",
+        "ការរៀបចំវេនការងារ និងផ្ទៀងផ្ទាត់វត្តមានប្រចាំខែ",
+        "ទាញរបាយការណ៍ម៉ោងការងារត្រៀមសម្រាប់បើកប្រាក់បៀវត្សរ៍"
+      ]
+    },
+    "techStack": [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "PostgreSQL",
+      "Tailwind CSS",
+      "Lucide Icons"
+    ],
+    "architecture": {
+      "type": "Role-Based Administration Suite",
+      "database": "Relational Schemas with Strict Constraints",
+      "auth": "Multi-Role JWT Authentication (Admin, Manager, Staff)",
+      "reporting": "Excel & PDF Export Engine"
+    },
+    "metrics": [
+      {
+        "label": {
+          "en": "Leave Processing",
+          "km": "ដំណើរការសុំច្បាប់"
+        },
+        "value": {
+          "en": "Automated Multi-Tier",
+          "km": "អនុម័តតាមប្រព័ន្ធ"
+        }
+      },
+      {
+        "label": {
+          "en": "Record Archival",
+          "km": "ការរក្សាទុកឯកសារ"
+        },
+        "value": {
+          "en": "100% Digital",
+          "km": "ឌីជីថល ១០០%"
+        }
+      },
+      {
+        "label": {
+          "en": "Admin Time Saved",
+          "km": "សន្សំពេលវេលារដ្ឋបាល"
+        },
+        "value": {
+          "en": "High Efficiency",
+          "km": "ប្រសិទ្ធភាពខ្ពស់"
+        }
+      }
+    ],
+    "visual": "hr-dash"
+  },
+  {
+    "slug": "qr-meeting-attendance",
+    "title": {
+      "en": "QR Meeting Attendance & Verification System",
+      "km": "ប្រព័ន្ធកត់វត្តមានតាម QR Code & ផ្ទៀងផ្ទាត់រហ័ស"
+    },
+    "category": {
+      "en": "Mobile Applications",
+      "km": "កម្មវិធីទូរស័ព្ទ"
+    },
+    "categories": [
+      "Web Applications",
+      "Mobile Applications",
+      "Management Systems"
+    ],
+    "badge": {
+      "en": "Demo Project / Case Study",
+      "km": "គំរូប្រព័ន្ធជាក់ស្តែង"
+    },
+    "summary": {
+      "en": "High-speed mobile QR scanning system with dynamic time-limited codes, anti-spoofing validation, and live attendance dashboard.",
+      "km": "ប្រព័ន្ធស្កេន QR Code កត់វត្តមានលឿនរហ័សលើទូរស័ព្ទដៃ ជាមួយកូដផ្លាស់ប្តូរតាមពេលវេលា ការពារការស្កេនជំនួស និងផ្ទាំងតាមដានវត្តមានផ្ទាល់។"
+    },
+    "description": {
+      "en": "Developed to eliminate roll-call delays and proxy sign-ins in large meetings, conferences, and staff assemblies. Features rotating dynamic QR codes, mobile device camera verification, real-time participant status boards, and instant administrative attendance exports.",
+      "km": "បង្កើតឡើងដើម្បីលុបបំបាត់ការហៅឈ្មោះយឺតយ៉ាវ និងការស្កេនជំនួសគ្នាក្នុងកិច្ចប្រជុំធំៗ សិក្ខាសាលា ឬវត្តមានប្រចាំថ្ងៃរបស់បុគ្គលិក។ មានប្រព័ន្ធ QR ប្តូរកូដរាល់ប៉ុន្មានវិនាទី ការស្កេនតាមកាមេរ៉ាទូរស័ព្ទ និងការទាញបញ្ជីវត្តមានភ្លាមៗ។"
+    },
+    "features": {
+      "en": [
+        "Dynamic Time-Rotating QR Generation (Anti-Screenshot/Anti-Proxy)",
+        "Mobile Camera Scanning with Instant Validation Feedback",
+        "Real-Time Live Attendance Counter & Presentee List",
+        "Automated Meeting Session Scheduling & Location Pinning",
+        "Suspicious Activity Detection & Duplicate Check-in Prevention",
+        "One-Click Attendance Sheet Export (PDF & CSV)"
+      ],
+      "km": [
+        "QR Code ប្តូរកូដស្វ័យប្រវត្តិតាមវិនាទី (ការពារការថតរូបស្គ្រីនផ្ញើបន្ត)",
+        "ស្កេនតាមកាមេរ៉ាទូរស័ព្ទដៃ ផ្ទៀងផ្ទាត់ភ្លាមៗក្រោម ០.៥ វិនាទី",
+        "ផ្ទាំង Dashboard បង្ហាញចំនួនអ្នកមកដល់ និងបញ្ជីឈ្មោះផ្ទាល់",
+        "ការកំណត់កាលវិភាគកិច្ចប្រជុំ និងទីតាំងភូមិសាស្ត្រច្បាស់លាស់",
+        "ប្រព័ន្ធចាប់សកម្មភាពមិនប្រក្រតី និងទប់ស្កាត់ការស្កេនស្ទួន",
+        "ទាញបញ្ជីវត្តមានជា PDF និង Excel ចុចមួយភ្លែត"
+      ]
+    },
+    "techStack": [
+      "React.js",
+      "HTML5 QR Scanner",
+      "Node.js",
+      "Express.js",
+      "WebSocket / SSE",
+      "Tailwind CSS"
+    ],
+    "architecture": {
+      "type": "Real-Time Client-Server Architecture",
+      "scanner": "High-Performance WebRTC Camera Stream Processing",
+      "security": "Cryptographically Signed Short-Lived QR Tokens",
+      "reporting": "Live Dashboard with Instant Ledger Update"
+    },
+    "metrics": [
+      {
+        "label": {
+          "en": "Verification Speed",
+          "km": "ល្បឿនផ្ទៀងផ្ទាត់"
+        },
+        "value": {
+          "en": "< 500ms Per Person",
+          "km": "< ០.៥ វិនាទី/ម្នាក់"
+        }
+      },
+      {
+        "label": {
+          "en": "Proxy Prevention",
+          "km": "ការការពារស្កេនជំនួស"
+        },
+        "value": {
+          "en": "Time-Rotating Tokens",
+          "km": "កូដវិលជុំការពារ"
+        }
+      },
+      {
+        "label": {
+          "en": "Session Visibility",
+          "km": "ការមើលទិន្នន័យ"
+        },
+        "value": {
+          "en": "Real-Time Live Feed",
+          "km": "ផ្សាយផ្ទាល់ភ្លាមៗ"
+        }
+      }
+    ],
+    "visual": "qr-dash"
+  },
+  {
+    "slug": "inventory-management-system",
+    "title": {
+      "en": "Multi-Location Inventory Management System",
+      "km": "ប្រព័ន្ធគ្រប់គ្រងស្តុកទំនិញ & ឃ្លាំងច្រើនទីតាំង"
+    },
+    "category": {
+      "en": "Management Systems",
+      "km": "ប្រព័ន្ធគ្រប់គ្រង"
+    },
+    "categories": [
+      "Web Applications",
+      "Management Systems"
+    ],
+    "badge": {
+      "en": "Demo Project / Case Study",
+      "km": "គំរូប្រព័ន្ធជាក់ស្តែង"
+    },
+    "summary": {
+      "en": "Barcode-integrated warehouse and store inventory platform with transaction history, automated low-stock warnings, and purchase reconciliation.",
+      "km": "ប្រព័ន្ធគ្រប់គ្រងឃ្លាំង និងស្តុកទំនិញភ្ជាប់បាកូដ កត់ត្រាប្រវត្តិប្រតិបត្តិការ ជូនដំណឹងពេលជិតអស់ស្តុក និងទូទាត់ការបញ្ជាទិញ។"
+    },
+    "description": {
+      "en": "A transaction-centric inventory control platform engineered for wholesalers and retail networks. Tracks stock in real-time across central warehouses and retail branches, tracks supplier purchase orders, and guarantees non-negative inventory balances with complete ledger histories.",
+      "km": "ប្រព័ន្ធគ្រប់គ្រងស្តុកផ្តោតលើប្រតិបត្តិការជាក់ស្តែង រៀបចំសម្រាប់អាជីវកម្មបោះដុំ និងបណ្តាញលក់រាយ។ តាមដានទំនិញតាមឃ្លាំងកណ្តាល និងសាខាលក់រាយ តាមដានការកុម្ម៉ង់ទិញពីអ្នកផ្គត់ផ្គង់ និងធានាតុល្យភាពស្តុកមិនបាត់បង់។"
+    },
+    "features": {
+      "en": [
+        "Real-Time Multi-Warehouse Stock Balance Tracking",
+        "Barcode & SKU Product Catalog with Category Hierarchies",
+        "Stock In / Stock Out / Inter-Branch Transfer Ledgers",
+        "Automated Minimum Stock Threshold & Low-Stock Alerts",
+        "Supplier Purchase Orders & Delivery Verification Tracking",
+        "Comprehensive Profit, Loss, and Stock Valuation Reports"
+      ],
+      "km": [
+        "តាមដានចំនួនស្តុកតាមឃ្លាំងច្រើនក្នុងពេលជាក់ស្តែង",
+        "កាតាឡុកទំនិញតាមបាកូដ & លេខកូដ SKU បែងចែកតាមប្រភេទ",
+        "បញ្ជីកត់ត្រាទំនិញចូល ទំនិញចេញ និងការផ្ទេរឆ្លងសាខា",
+        "ការកំណត់កម្រិតស្តុកអប្បបរមា & ជូនដំណឹងមុនអស់ស្តុក",
+        "ការបញ្ជាទិញទំនិញពីអ្នកផ្គត់ផ្គង់ និងការផ្ទៀងផ្ទាត់ពេលទំនិញមកដល់",
+        "របាយការណ៍តម្លៃស្តុក ចំណេញខាត និងរបាយការណ៍ហិរញ្ញវត្ថុ"
+      ]
+    },
+    "techStack": [
+      "React.js",
+      "Vite",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "PostgreSQL",
+      "Chart.js"
+    ],
+    "architecture": {
+      "type": "Transaction-Driven Inventory Engine",
+      "database": "ACID Multi-Location Ledger Entries",
+      "caching": "Optimized Query Aggregations for Large Product Catalogs",
+      "integration": "Barcode Scanner & Thermal Label Printing Compatibility"
+    },
+    "metrics": [
+      {
+        "label": {
+          "en": "Balance Accuracy",
+          "km": "ភាពត្រឹមត្រូវនៃចំនួន"
+        },
+        "value": {
+          "en": "Non-Negative Guarantee",
+          "km": "ធានាមិនមានចំនួនដក"
+        }
+      },
+      {
+        "label": {
+          "en": "Stock Valuation",
+          "km": "ការវាយតម្លៃស្តុក"
+        },
+        "value": {
+          "en": "Real-Time FIFO/Average",
+          "km": "គណនា FIFO ភ្លាមៗ"
+        }
+      },
+      {
+        "label": {
+          "en": "Audit Logging",
+          "km": "កំណត់ត្រាសវនកម្ម"
+        },
+        "value": {
+          "en": "Immutable Transactions",
+          "km": "មិនអាចកែបន្លំបាន"
+        }
+      }
+    ],
+    "visual": "inventory-dash"
+  }
+]

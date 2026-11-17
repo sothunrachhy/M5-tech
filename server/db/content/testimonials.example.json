@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "replace-with-a-unique-id",
+    "author": "Client's real name (with their permission)",
+    "role": { "en": "Their job title", "km": "តួនាទីរបស់ពួកគេ" },
+    "company": "Their organisation",
+    "quote": {
+      "en": "Their exact words, in English.",
+      "km": "ពាក្យពិតរបស់ពួកគេ ជាភាសាខ្មែរ។"
+    },
+    "rating": 5,
+    "project": "Which M5-Tech system you built for them (optional)",
+    "avatar": "/images/testimonials/their-photo.jpg (optional)"
+  }
+]

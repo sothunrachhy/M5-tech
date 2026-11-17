@@ -1,0 +1,230 @@
+[
+  {
+    "slug": "healthcare",
+    "icon": "Activity",
+    "name": {
+      "en": "Healthcare & Clinical Facilities",
+      "km": "វិស័យសុខាភិបាល មន្ទីរពេទ្យ & គ្លីនិក"
+    },
+    "shortName": {
+      "en": "Healthcare",
+      "km": "សុខាភិបាល"
+    },
+    "challenge": {
+      "en": "Manual medicine tracking in hospitals causes drug expiration waste, billing discrepancies, untracked stock transfers between wards, and labor-intensive paper reporting.",
+      "km": "ការតាមដានស្តុកថ្នាំដោយដៃក្នុងមន្ទីរពេទ្យបង្កឱ្យមានការផុតកំណត់ថ្នាំចោល ភាពមិនត្រូវគ្នានៃទិន្នន័យគិតលុយ ការផ្ទេរថ្នាំរវាងអគារមិនមានកំណត់ត្រា និងការធ្វើរបាយការណ៍ក្រដាសយឺតយ៉ាវ។"
+    },
+    "solution": {
+      "en": "M5-Tech develops specialized clinical systems featuring First-Expired, First-Out (FEFO) medicine batch allocation, patient consumption registers, atomic double-entry stock ledgers, and automated MOH-compliant reporting.",
+      "km": "M5-Tech អភិវឌ្ឍប្រព័ន្ធគ្រប់គ្រងគ្លីនិកកម្រិតខ្ពស់ រៀបចំលំដាប់ថ្នាំផុតកំណត់មុនចេញប្រើមុន (FEFO) កត់ត្រាការប្រើប្រាស់ថ្នាំរបស់អ្នកជំងឺ បញ្ជីទិន្នន័យស្តុកមិនបាត់បង់ និងរបាយការណ៍ស្វ័យប្រវត្តិតាមស្តង់ដារក្រសួង។"
+    },
+    "features": {
+      "en": [
+        "FEFO batch tracking & expiry alerts",
+        "Patient drug consumption & automated billing",
+        "Ward-to-pharmacy requisition workflows",
+        "Official dual-language Excel & PDF reports"
+      ],
+      "km": [
+        "តាមដានកញ្ចប់ថ្នាំតាម FEFO & ជូនដំណឹងមុនផុតកំណត់",
+        "កត់ត្រាការប្រើថ្នាំរបស់អ្នកជំងឺ & គណនាវិក្កយបត្រស្វ័យប្រវត្តិ",
+        "លំហូរការងារស្នើសុំថ្នាំពីផ្នែក/អគារមកឱសថស្ថានកណ្តាល",
+        "របាយការណ៍ផ្លូវការ Excel & PDF ពីរភាសា (ខ្មែរ/អង់គ្លេស)"
+      ]
+    },
+    "metric": {
+      "en": "100% Audit Traceability",
+      "km": "តាមដានសវនកម្មបាន ១០០%"
+    }
+  },
+  {
+    "slug": "retail-inventory",
+    "icon": "Boxes",
+    "name": {
+      "en": "Retail & Multi-Branch Inventory",
+      "km": "អាជីវកម្មលក់រាយ & ឃ្លាំងទំនិញច្រើនសាខា"
+    },
+    "shortName": {
+      "en": "Retail & Stock",
+      "km": "លក់រាយ & ស្តុក"
+    },
+    "challenge": {
+      "en": "Businesses lose revenue when inventory is scattered across multiple locations, stock counts don't reconcile with sales, and low-stock alerts arrive too late.",
+      "km": "អាជីវកម្មបាត់បង់ប្រាក់ចំណូលនៅពេលទំនិញស្តុកនៅរាយប៉ាយតាមសាខាផ្សេងៗ ចំនួនទំនិញមិនត្រូវនឹងទិន្នន័យលក់ និងការដឹងទំនិញអស់ស្តុកយឺតពេល។"
+    },
+    "solution": {
+      "en": "We construct unified inventory management platforms with non-negative stock balance guarantees, real-time multi-branch transfers, SKU barcode scanning, and automated supplier reorder notifications.",
+      "km": "យើងកសាងប្រព័ន្ធគ្រប់គ្រងស្តុកបង្រួបបង្រួមមួយ ធានាថាស្តុកមិនមានចំនួនដក កត់ត្រាការផ្ទេរទំនិញឆ្លងសាខាភ្លាមៗ ស្កេនបាកូដ SKU និងជូនដំណឹងកុម្ម៉ង់ទំនិញចូលស្តុកស្វ័យប្រវត្តិ។"
+    },
+    "features": {
+      "en": [
+        "Multi-warehouse real-time balance tracking",
+        "Barcode & SKU scanning integration",
+        "Automated minimum stock alerts",
+        "Transaction-level audit trail"
+      ],
+      "km": [
+        "តាមដានចំនួនស្តុកតាមឃ្លាំងច្រើនក្នុងពេលជាក់ស្តែង",
+        "ភ្ជាប់ប្រព័ន្ធស្កេនបាកូដ (Barcode) & កូដ SKU",
+        "ជូនដំណឹងស្វ័យប្រវត្តិពេលទំនិញធ្លាក់ដល់កម្រិតកំណត់",
+        "ប្រវត្តិកំណត់ត្រាគ្រប់ប្រតិបត្តិការចេញចូលស្តុក"
+      ]
+    },
+    "metric": {
+      "en": "Zero Stock Discrepancies",
+      "km": "គ្មានទិន្នន័យស្តុកខុសគ្នា"
+    }
+  },
+  {
+    "slug": "education",
+    "icon": "GraduationCap",
+    "name": {
+      "en": "Educational & Training Institutions",
+      "km": "គ្រឹះស្ថានអប់រំ & មជ្ឈមណ្ឌលបណ្តុះបណ្តាល"
+    },
+    "shortName": {
+      "en": "Education",
+      "km": "ការអប់រំ"
+    },
+    "challenge": {
+      "en": "Managing student enrollment, course attendance, grading, fee collections, and parent communication using separate spreadsheets is slow and error-prone.",
+      "km": "ការគ្រប់គ្រងការចុះឈ្មោះសិស្ស វត្តមានតាមថ្នាក់ ពិន្ទុ ការបង់ថ្លៃសិក្សា និងការទំនាក់ទំនងជាមួយអាណាព្យាបាលតាម Excel ដាច់ដោយឡែកពីគ្នា គឺយឺតយ៉ាវ និងងាយច្រឡំ។"
+    },
+    "solution": {
+      "en": "Custom student information and management systems that digitize student records, automate class attendance through QR codes, schedule timetable rotations, and streamline tuition receipt tracking.",
+      "km": "ប្រព័ន្ធគ្រប់គ្រងព័ត៌មានសិស្សផ្ទាល់ខ្លួន ដែលកត់ត្រាប្រវត្តិរូបសិស្សជាឌីជីថល ស្វ័យប្រវត្តិកម្មវត្តមានតាមរយៈ QR Code រៀបចំកាលវិភាគបង្រៀន និងគ្រប់គ្រងវិក្កយបត្របង់ថ្លៃសិក្សា។"
+    },
+    "features": {
+      "en": [
+        "Student database & profile management",
+        "QR / biometric attendance verification",
+        "Tuition invoice & payment records",
+        "Teacher gradebook & report cards"
+      ],
+      "km": [
+        "មូលដ្ឋានទិន្នន័យ និងប្រវត្តិរូបសិស្សពេញលេញ",
+        "ផ្ទៀងផ្ទាត់វត្តមានតាម QR Code ឬជីវមាត្រ",
+        "វិក្កយបត្រថ្លៃសិក្សា & កំណត់ត្រាបង់ប្រាក់",
+        "សៀវភៅតាមដានពិន្ទុគ្រូ & ព្រឹត្តិបត្រពិន្ទុសិស្ស"
+      ]
+    },
+    "metric": {
+      "en": "85% Less Admin Paperwork",
+      "km": "កាត់បន្ថយក្រដាសស្នាម ៨៥%"
+    }
+  },
+  {
+    "slug": "business-admin",
+    "icon": "Building2",
+    "name": {
+      "en": "Business Administration & Corporate HR",
+      "km": "រដ្ឋបាលអាជីវកម្ម & ធនធានមនុស្ស (HR)"
+    },
+    "shortName": {
+      "en": "Corporate HR",
+      "km": "ធនធានមនុស្ស"
+    },
+    "challenge": {
+      "en": "HR departments struggle with buddy-punching, uncoordinated leave requests, unstructured employee documents, and time-consuming manual payroll calculations.",
+      "km": "ផ្នែកធនធានមនុស្សជួបការលំបាកជាមួយការស្កេនវត្តមានជំនួសគ្នា ការស្នើសុំច្បាប់គ្មានប្រព័ន្ធ កិច្ចសន្យាទុកគ្មានរបៀប និងការគណនាប្រាក់បៀវត្សរ៍ដោយដៃចំណាយពេលច្រើន។"
+    },
+    "solution": {
+      "en": "Comprehensive HR & Attendance portals with time-restricted QR meeting scanning, geo-tagged mobile check-ins, automated leave balance accruals, and centralized staff performance records.",
+      "km": "ប្រព័ន្ធ HR និងកត់វត្តមានទំនើបជាមួយ QR កំណត់ពេលវេលាជាក់លាក់ ការឆែកអ៊ីនតាមទូរស័ព្ទ ការគណនាច្បាប់ឈប់សម្រាកស្វ័យប្រវត្តិ និងការរក្សាទុកទិន្នន័យបុគ្គលិកនៅកន្លែងតែមួយ។"
+    },
+    "features": {
+      "en": [
+        "Dynamic QR attendance & anti-spoofing",
+        "Leave application & multi-tier approval",
+        "Employee profiles & digital contract storage",
+        "Audit logs for all administrative actions"
+      ],
+      "km": [
+        "ស្កេន QR វត្តមានផ្លាស់ប្តូរកូដរហ័ស (ការពារការបន្លំ)",
+        "ទម្រង់សុំច្បាប់ឈប់សម្រាក & ការអនុម័តតាមលំដាប់ថ្នាក់",
+        "ប្រវត្តិរូបបុគ្គលិក & ការរក្សាទុកកិច្ចសន្យាឌីជីថល",
+        "កំណត់ត្រាសវនកម្មរាល់សកម្មភាពរដ្ឋបាល"
+      ]
+    },
+    "metric": {
+      "en": "Real-time Staff Verification",
+      "km": "ផ្ទៀងផ្ទាត់បុគ្គលិកបានភ្លាមៗ"
+    }
+  },
+  {
+    "slug": "hospitality",
+    "icon": "Utensils",
+    "name": {
+      "en": "Hospitality & Event Management",
+      "km": "សណ្ឋាគារ ភោជនីយដ្ឋាន & ការរៀបចំព្រឹត្តិការណ៍"
+    },
+    "shortName": {
+      "en": "Hospitality",
+      "km": "បដិសណ្ឋារកិច្ច"
+    },
+    "challenge": {
+      "en": "Hotels, venues, and event organizers face bottlenecks at guest check-in, chaotic reservation schedules, and fragmented guest billing.",
+      "km": "សណ្ឋាគារ ភោជនីយដ្ឋាន និងអ្នករៀបចំព្រឹត្តិការណ៍ជួបការកកស្ទះនៅតុទទួលភ្ញៀវ តារាងកក់តុ/បន្ទប់មានភាពច្របូកច្របល់ និងការគិតលុយភ្ញៀវបែកខ្ញែក។"
+    },
+    "solution": {
+      "en": "Tailored reservation and guest management platforms providing real-time room/table availability, rapid QR check-in desks, service request tracking, and unified final invoicing.",
+      "km": "ប្រព័ន្ធគ្រប់គ្រងការកក់ និងភ្ញៀវផ្ទាល់ខ្លួនដែលបង្ហាញបន្ទប់/តុទំនេរជាក់ស្តែង តុឆែកអ៊ីនភ្ញៀវរហ័សតាម QR Code ការតាមដានការកុម្ម៉ង់សេវាកម្ម និងការបូកសរុបវិក្កយបត្រតែមួយ។"
+    },
+    "features": {
+      "en": [
+        "Instant attendee/guest QR pass scanning",
+        "Live booking calendar & capacity locks",
+        "Service order dispatching to kitchen/staff",
+        "Consolidated payment records"
+      ],
+      "km": [
+        "ស្កេនសំបុត្រ ឬកាតភ្ញៀវតាម QR Code ភ្លាមៗ",
+        "ប្រតិទិនកក់បន្ទប់/តុផ្សាយផ្ទាល់ & កំណត់ចំនួន",
+        "បញ្ជូនការកុម្ម៉ង់សេវាកម្មទៅផ្ទះបាយ/បុគ្គលិករហ័ស",
+        "កំណត់ត្រាទូទាត់ប្រាក់រួមគ្នាច្បាស់លាស់"
+      ]
+    },
+    "metric": {
+      "en": "Frictionless Guest Check-in",
+      "km": "ឆែកអ៊ីនភ្ញៀវរហ័សមិនកកស្ទះ"
+    }
+  },
+  {
+    "slug": "smes",
+    "icon": "TrendingUp",
+    "name": {
+      "en": "Small & Medium Enterprises (SMEs)",
+      "km": "សហគ្រាសធុនតូច និងមធ្យម (SMEs)"
+    },
+    "shortName": {
+      "en": "SMEs & Startups",
+      "km": "សហគ្រាស SMEs"
+    },
+    "challenge": {
+      "en": "Growing businesses need dedicated operational software but are priced out by generic enterprise packages with excessive recurring subscription fees.",
+      "km": "អាជីវកម្មកំពុងរីកចម្រើនត្រូវការប្រព័ន្ធសូហ្វវែរផ្ទាល់ខ្លួន ប៉ុន្តែជួបតម្លៃថ្លៃហួសហេតុពីកញ្ចប់សូហ្វវែរក្រៅប្រទេសដែលមានការគិតថ្លៃប្រចាំខែ/ឆ្នាំបន្តបន្ទាប់។"
+    },
+    "solution": {
+      "en": "Cost-effective, proprietary software solutions built to own with no expensive monthly per-seat licensing. We build specifically what your business needs today with room to scale tomorrow.",
+      "km": "ដំណោះស្រាយសូហ្វវែរផ្ទាល់ខ្លួនចំណាយសមរម្យ ក្លាយជាកម្មសិទ្ធិរបស់អាជីវកម្មអ្នកដោយគ្មានការបង់ថ្លៃសេវាប្រចាំខែថ្លៃៗ។ យើងបង្កើតចំអ្វីដែលអាជីវកម្មអ្នកត្រូវការថ្ងៃនេះ និងត្រៀមពង្រីកថ្ងៃស្អែក។"
+    },
+    "features": {
+      "en": [
+        "100% Owned software with zero recurring seat fees",
+        "Customized exactly to your daily operational flow",
+        "Runs efficiently on lightweight cloud VPS or on-premise",
+        "Expandable modular code architecture"
+      ],
+      "km": [
+        "កម្មសិទ្ធិសូហ្វវែរ ១០០% គ្មានការបង់ថ្លៃតាមចំនួនកៅអីអ្នកប្រើ",
+        "បង្កើតឡើងឱ្យត្រូវនឹងដំណើរការការងារប្រចាំថ្ងៃរបស់អ្នក",
+        "ដំណើរការបានល្អលើ Cloud VPS តម្លៃសមរម្យ ឬម៉ាស៊ីនក្នុងស្រុក",
+        "កូដស្ថាបត្យកម្មម៉ូឌុល ងាយស្រួលបន្ថែមមុខងារទៅថ្ងៃមុខ"
+      ]
+    },
+    "metric": {
+      "en": "Cost-Effective Long-Term Ownership",
+      "km": "កម្មសិទ្ធិយូរអង្វែង ចំណាយសមរម្យ"
+    }
+  }
+]

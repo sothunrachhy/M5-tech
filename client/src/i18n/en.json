@@ -1,0 +1,177 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "solutions": "Solutions",
+    "portfolio": "Portfolio",
+    "about": "About Us",
+    "contact": "Contact",
+    "startProject": "Start Your Project",
+    "directTelegram": "Direct Telegram Chat"
+  },
+  "hero": {
+    "badge": "M5-Tech • Technology Solution",
+    "subBadge": "Custom Software Engineering",
+    "headline1": "Transform Your Ideas Into",
+    "headlineHighlight": "Powerful Digital Solutions.",
+    "description": "We design and develop custom software solutions that help businesses simplify operations, improve productivity, and grow through technology.",
+    "startProjectBtn": "Start a Project",
+    "exploreWorkBtn": "Explore Our Work",
+    "trustBadges": {
+      "architecture": "Full-Stack Architecture (React & Node.js)",
+      "database": "Atomic Database Transactions (PostgreSQL)",
+      "collaboration": "Direct Developer Collaboration"
+    }
+  },
+  "capabilities": {
+    "badge": "Core Engineering Tenets",
+    "headline": "Technology That Moves Your Business Forward.",
+    "subheadline": "We architect pragmatic, resilient software solutions designed to solve real operational bottlenecks and eliminate administrative friction.",
+    "items": [
+      {
+        "title": "Custom Solutions",
+        "shortDesc": "Purpose-built software tailored exactly to your organizational workflows and business rules.",
+        "description": "We do not rely on rigid off-the-shelf templates. Every data model, user permission, and operational interface is engineered from the ground up to match the unique reality of your company.",
+        "tag": "Bespoke Engineering"
+      },
+      {
+        "title": "Business Automation",
+        "shortDesc": "Eliminate repetitive manual entry, Excel spreadsheets, and error-prone administrative overhead.",
+        "description": "From QR attendance scanning to automated inventory reorder alerts and patient ledger reconciliations, we transform slow manual operations into fast, automated digital pipelines.",
+        "tag": "Workflow Efficiency"
+      },
+      {
+        "title": "Scalable Architecture",
+        "shortDesc": "Robust backends, atomic transactions, and modular frontends built to grow alongside your user base.",
+        "description": "Constructed with modern frameworks like React, Node.js, and PostgreSQL with ACID-compliant transactions, secure JWT authentication, and Linux/Nginx reverse proxy deployment.",
+        "tag": "Enterprise Ready"
+      },
+      {
+        "title": "Reliable Support",
+        "shortDesc": "Dedicated technical assistance, system monitoring, and ongoing maintenance post-launch.",
+        "description": "Direct developer communication without layers of bureaucracy. We provide deployment verification, routine data backups, security updates, and feature expansions as your business needs evolve.",
+        "tag": "Ongoing Partnership"
+      }
+    ]
+  },
+  "services": {
+    "badge": "Capabilities & Deliverables",
+    "headline": "What We Build",
+    "subheadline": "End-to-end software development services crafted to solve complex operational challenges with precision, reliability, and modern architecture.",
+    "coreServiceTag": "Core Service",
+    "inquireBtn": "Inquire About This Service"
+  },
+  "solutions": {
+    "badge": "Industry Solutions",
+    "headline": "Solutions Designed Around Your Business.",
+    "subheadline": "We adapt software architecture directly to your sector's operational realities, solving specific industry bottlenecks with custom digital tooling.",
+    "sectorBlueprint": "Sector Blueprint",
+    "theChallenge": "The Operational Bottleneck:",
+    "theSolution": "How M5-Tech Solves It:",
+    "requestBtn": "Request a Solution for",
+    "deliveredCapabilities": "Delivered Capabilities",
+    "customNotice": "Custom schemas & workflows designed for your team's exact requirements"
+  },
+  "portfolio": {
+    "badge": "Featured Projects & Case Studies",
+    "headline": "Turning Ideas Into Real Solutions.",
+    "subheadline": "Explore sample architectures and working management systems engineered by the M5-Tech team to replace manual paperwork with reliable automation.",
+    "disclaimer": "Presented as working portfolio prototypes & demonstration systems.",
+    "viewDetailsBtn": "View Project Details & Architecture",
+    "filterAll": "All",
+    "filterWeb": "Web Applications",
+    "filterManagement": "Management Systems",
+    "filterMobile": "Mobile Applications"
+  },
+  "whyChoose": {
+    "badge": "Why M5-Tech",
+    "headline": "Why Businesses Choose M5-Tech",
+    "subheadline": "We operate as an agile engineering team with direct client access, zero corporate bureaucracy, and a single commitment: delivering dependable software that works in production.",
+    "precisionTag": "Engineered with precision",
+    "bannerBadge": "Real Engineering Ownership",
+    "bannerHeadline": "Direct Communication With The Engineers Writing Your Code",
+    "bannerDesc": "When you partner with M5-Tech, you communicate directly with experienced full-stack engineers who understand database constraints, security requirements, and UI subtleties—not account salespeople.",
+    "bannerBtn": "Discuss Your Project"
+  },
+  "process": {
+    "badge": "Methodology",
+    "headline": "From Your Idea To Reality.",
+    "subheadline": "A transparent, milestone-driven development lifecycle that keeps you informed and in control at every stage.",
+    "phasePrefix": "Phase",
+    "deliverableLabel": "Stage Deliverable:"
+  },
+  "inquiry": {
+    "badge": "Project Request",
+    "headline": "Have an Idea? Let's Build It Together.",
+    "subheadline": "Tell us about your business challenges and what you want to build. Our team will review your requirements and recommend a suitable solution within your budget.",
+    "sec1Title": "Client Information",
+    "sec1Subtitle": "Who should we contact regarding this specification?",
+    "fullNameLabel": "Full Name",
+    "fullNamePlaceholder": "e.g. Sopheak Chan",
+    "companyLabel": "Company / Organization",
+    "companyPlaceholder": "e.g. Phnom Penh Polyclinic / Angkor Retail",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "sopheak@company.com",
+    "phoneLabel": "Phone Number",
+    "phonePlaceholder": "+855 XX XXX XXX",
+    "telegramLabel": "Telegram Username / Phone",
+    "telegramOptional": "(Optional for faster direct chat)",
+    "telegramPlaceholder": "@yourhandle or +855...",
+    "sec2Title": "Project Information",
+    "sec2Subtitle": "Define the system scope and core requirements.",
+    "projectNameLabel": "Project Name",
+    "projectNamePlaceholder": "e.g. Clinic Patient Ledger & Inventory System",
+    "systemTypeLabel": "Type of System",
+    "platformLabel": "Preferred Platform",
+    "expectedUsersLabel": "Expected Number of Users",
+    "descLabel": "Project Description",
+    "descPlaceholder": "Describe what your organization is doing currently, what operational problems you want to eliminate, and your overall project goals...",
+    "featuresLabel": "Required Features & Workflows",
+    "featuresPlaceholder": "e.g. 1. Patient registration & medicine consumption ledger. 2. FEFO expiry sorting. 3. QR code attendance check-in. 4. Dual-language Excel/PDF exports with approval signatures.",
+    "sec3Title": "Budget Estimation & Project Timeline",
+    "sec3Subtitle": "Help us calibrate the technical scope to your financial expectations.",
+    "budgetLabel": "Budget Estimation (Select one)",
+    "timelineLabel": "Desired Project Timeline (Select one)",
+    "privacyNote": "Confidentiality Guarantee: Your project requirements and business concepts are kept strictly private.",
+    "submitBtn": "Submit Project Request",
+    "submittingBtn": "Transmitting Specification...",
+    "backendOfflineTitle": "Notice Regarding Submission Status",
+    "sendViaTelegram": "Send Directly Via Telegram",
+    "copyFormData": "Copy Form Data"
+  },
+  "faq": {
+    "badge": "Frequently Asked Questions",
+    "headline": "Clear Answers To Common Inquiries",
+    "subheadline": "Everything you need to know about partnering with M5-Tech on your software initiative.",
+    "unansweredTitle": "Have a question not listed here?",
+    "unansweredSub": "Speak directly with our technical team today.",
+    "chatTelegramBtn": "Chat on Telegram",
+    "topicPrefix": "Topic:"
+  },
+  "contact": {
+    "badge": "Direct Communication",
+    "headline": "Let's Talk About Your Next Project.",
+    "subheadline": "Reach out through your preferred channel. We are based in Cambodia and provide responsive consultation for local and regional businesses.",
+    "fastestResponse": "Fastest Response",
+    "officialInquiries": "Official Inquiries",
+    "directCall": "Direct Call",
+    "headquarters": "Headquarters",
+    "openTelegram": "Open Telegram",
+    "sendEmail": "Send Email",
+    "callUs": "Call Us",
+    "facebookPage": "Facebook Page",
+    "bannerBadge": "Ready to transform your operations?",
+    "bannerHeadline": "Start Your Project Consultation With M5-Tech",
+    "bannerSub": "Fill out our structured project inquiry or message us directly. We respond with a tailored preliminary evaluation.",
+    "getInTouchBtn": "Get In Touch"
+  },
+  "footer": {
+    "bio": "M5-Tech is a freelance software development team helping businesses and organizations transform manual operations into efficient, scalable digital solutions.",
+    "navigationTitle": "Navigation",
+    "capabilitiesTitle": "Core Capabilities",
+    "architectureBoxTitle": "Custom Business Architecture",
+    "copyright": "© 2026 M5-Tech. All Rights Reserved.",
+    "tagline": "Technology Solution",
+    "backToTop": "Back to top"
+  }
+}

@@ -1,0 +1,16 @@
+# dependencies & build output
+node_modules/
+dist/
+
+# secrets — never commit; set them in Vercel → Settings → Environment Variables
+.env
+.env.*
+!.env.example
+
+# Vercel CLI
+.vercel
+
+# logs / OS / editor
+*.log
+.DS_Store
+Thumbs.db

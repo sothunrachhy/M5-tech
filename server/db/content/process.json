@@ -1,0 +1,146 @@
+[
+  {
+    "step": "01",
+    "icon": "Compass",
+    "phase": {
+      "en": "Discovery",
+      "km": "ស្វែងយល់ពីតម្រូវការ"
+    },
+    "title": {
+      "en": "Discovery & Consultation",
+      "km": "ការប្រឹក្សាយោបល់ & ស្វែងយល់តម្រូវការ"
+    },
+    "summary": {
+      "en": "Understand the client's business, problems, and requirements.",
+      "km": "ស្វែងយល់ពីអាជីវកម្ម បញ្ហាប្រឈម និងតម្រូវការជាក់ស្តែងរបស់អតិថិជន។"
+    },
+    "details": {
+      "en": "We conduct in-depth consultations to map your operational bottlenecks, understand your user roles, review existing spreadsheets/manual steps, and outline clear functional requirements.",
+      "km": "យើងធ្វើការពិគ្រោះយោបល់យ៉ាងស៊ីជម្រៅ ដើម្បីកំណត់បញ្ហាស្ទះក្នុងដំណើរការការងារ យល់ពីតួនាទីអ្នកប្រើប្រាស់ ពិនិត្យសៀវភៅ/Excel ចាស់ៗ និងរៀបចំវិសាលភាពមុខងារប្រព័ន្ធច្បាស់លាស់។"
+    },
+    "deliverable": {
+      "en": "Requirements Scope & Technical Blueprint",
+      "km": "ឯកសារវិសាលភាពតម្រូវការ & ប្លង់បច្ចេកទេស"
+    }
+  },
+  {
+    "step": "02",
+    "icon": "PenTool",
+    "phase": {
+      "en": "Planning & Design",
+      "km": "ការរៀបចំផែនការ & រចនា"
+    },
+    "title": {
+      "en": "Architecture & UI/UX Design",
+      "km": "ស្ថាបត្យកម្មប្រព័ន្ធ & ការរចនា UI/UX"
+    },
+    "summary": {
+      "en": "Prepare project architecture, database structure, and UI/UX design.",
+      "km": "រៀបចំស្ថាបត្យកម្មគម្រោង រចនាសម្ព័ន្ធទិន្នន័យ (Database) និងការរចនា UI/UX។"
+    },
+    "details": {
+      "en": "We design high-fidelity interactive wireframes, plan normalized database schemas, design role-based access matrices, and establish RESTful API contracts before writing code.",
+      "km": "យើងរចនាផ្ទាំងគំរូអេក្រង់ Wireframe ជាក់ស្តែង រៀបចំ Schema ទិន្នន័យ កំណត់សិទ្ធិតាមតួនាទី និងរៀបចំកិច្ចសន្យា RESTful API មុនពេលចាប់ផ្តើមសរសេរកូដ។"
+    },
+    "deliverable": {
+      "en": "UI/UX Prototypes & Database Schemas",
+      "km": "គំរូតេស្ត UI/UX & ប្លង់រចនាសម្ព័ន្ធទិន្នន័យ"
+    }
+  },
+  {
+    "step": "03",
+    "icon": "Terminal",
+    "phase": {
+      "en": "Development",
+      "km": "ការអភិវឌ្ឍន៍សូហ្វវែរ"
+    },
+    "title": {
+      "en": "Agile Full-Stack Development",
+      "km": "ការសរសេរកូដ Full-Stack រហ័សរហួន"
+    },
+    "summary": {
+      "en": "Build the frontend, backend, and required integrations.",
+      "km": "អភិវឌ្ឍ Frontend, Backend និងការតភ្ជាប់ប្រព័ន្ធចាំបាច់នានា។"
+    },
+    "details": {
+      "en": "We implement modular React components, develop secure Express.js API endpoints, configure PostgreSQL ACID transactions, and integrate hardware scanners, printers, and PDF/Excel export engines.",
+      "km": "យើងសរសេរសមាសភាគ React ម៉ូឌុល អភិវឌ្ឍ API សុវត្ថិភាពខ្ពស់លើ Express.js រៀបចំប្រតិបត្តិការទិន្នន័យ ACID លើ PostgreSQL និងភ្ជាប់ម៉ាស៊ីនស្កេន ព្រីនធ័រ និងម៉ាស៊ីនទាញរបាយការណ៍។"
+    },
+    "deliverable": {
+      "en": "Working Staged Application Builds",
+      "km": "ប្រព័ន្ធដំណាក់កាលសាកល្បងជាក់ស្តែង"
+    }
+  },
+  {
+    "step": "04",
+    "icon": "CheckCircle2",
+    "phase": {
+      "en": "Testing",
+      "km": "ការត្រួតពិនិត្យគុណភាព"
+    },
+    "title": {
+      "en": "Quality Assurance & Validation",
+      "km": "ការតេស្តមុខងារ & សុវត្ថិភាព"
+    },
+    "summary": {
+      "en": "Test functionality, security, and performance.",
+      "km": "តេស្តមុខងារប្រព័ន្ធ សុវត្ថិភាព និងល្បឿនដំណើរការ។"
+    },
+    "details": {
+      "en": "Rigorous testing covering business logic edges, negative stock prevention, authentication security, role authorization guards, mobile responsiveness, and high-volume report generation.",
+      "km": "ការធ្វើតេស្តយ៉ាងហ្មត់ចត់លើលក្ខខណ្ឌអាជីវកម្ម ការពារទិន្នន័យស្តុកដក សុវត្ថិភាព Login ការពារសិទ្ធិប្រើប្រាស់ ភាពរលូនលើទូរស័ព្ទដៃ និងការទាញរបាយការណ៍ធំៗ។"
+    },
+    "deliverable": {
+      "en": "QA Audit Report & User Acceptance Testing (UAT)",
+      "km": "របាយការណ៍តេស្ត QA & ការតេស្តផ្ទាល់ពីអតិថិជន (UAT)"
+    }
+  },
+  {
+    "step": "05",
+    "icon": "Rocket",
+    "phase": {
+      "en": "Deployment",
+      "km": "ការដាក់ឱ្យដំណើរការ"
+    },
+    "title": {
+      "en": "Production Deployment & Setup",
+      "km": "ការដំឡើងលើម៉ាស៊ីនមេផ្លូវការ"
+    },
+    "summary": {
+      "en": "Deploy the system and configure the production environment.",
+      "km": "ដាក់ឱ្យដំណើរការប្រព័ន្ធ និងរៀបចំម៉ាស៊ីនមេ Production។"
+    },
+    "details": {
+      "en": "We configure your Linux cloud VPS, install and harden Nginx reverse proxies, issue SSL certificates, configure PM2 process managers, and set up automated database backup schedules.",
+      "km": "យើងរៀបចំ Linux Cloud VPS ពង្រឹងសុវត្ថិភាព Nginx Reverse Proxy បំពាក់វិញ្ញាបនបត្រ SSL (HTTPS) រៀបចំ PM2 និងកំណត់កាលវិភាគបម្រុងទុកទិន្នន័យ (Backup) ស្វ័យប្រវត្តិ។"
+    },
+    "deliverable": {
+      "en": "Live Production URL & Administrator Credentials",
+      "km": "តំណភ្ជាប់ប្រព័ន្ធដំណើរការផ្លូវការ & គណនីគ្រប់គ្រង"
+    }
+  },
+  {
+    "step": "06",
+    "icon": "ShieldCheck",
+    "phase": {
+      "en": "Support",
+      "km": "ការគាំទ្រ & ថែទាំ"
+    },
+    "title": {
+      "en": "Ongoing Technical Support",
+      "km": "ការគាំទ្របច្ចេកទេសជាប្រចាំ"
+    },
+    "summary": {
+      "en": "Provide technical support and maintenance according to the agreed service package.",
+      "km": "ផ្តល់ការគាំទ្របច្ចេកទេស និងថែទាំប្រព័ន្ធស្របតាមកញ្ចប់សេវាដែលបានព្រមព្រៀង។"
+    },
+    "details": {
+      "en": "We train your key administrators, deliver technical documentation, provide direct developer assistance, and handle system health monitoring and future feature iterations.",
+      "km": "យើងបណ្តុះបណ្តាលបុគ្គលិកគ្រប់គ្រងរបស់អ្នក ប្រគល់ឯកសារណែនាំបច្ចេកទេស ផ្តល់ជំនួយផ្ទាល់ពីអ្នកសរសេរប្រព័ន្ធ និងតាមដានសុខភាពម៉ាស៊ីនមេ។"
+    },
+    "deliverable": {
+      "en": "Dedicated Technical Support & Maintenance",
+      "km": "ការគាំទ្របច្ចេកទេសផ្ទាល់ & សេវាថែទាំ"
+    }
+  }
+]

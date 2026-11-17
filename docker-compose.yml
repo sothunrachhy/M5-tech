@@ -1,0 +1,22 @@
+services:
+  db:
+    image: postgres:17-alpine
+    container_name: m5tech-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: m5tech
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-m5tech_dev}  # dev default — set a strong one anywhere else
+      POSTGRES_DB: m5tech
+    ports:
+      # Bound to localhost only: the database is never reachable from the network.
+      - "127.0.0.1:${DB_PORT:-5442}:5432"
+    volumes:
+      - m5tech-pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U m5tech -d m5tech"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  m5tech-pgdata:
