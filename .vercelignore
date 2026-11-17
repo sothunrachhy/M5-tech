@@ -1,6 +1,5 @@
-# Not needed on Vercel (keeps uploads small when deploying with the CLI)
-node_modules
-client/dist
+# Files Vercel doesn't need. Never list build output (client/dist) here —
+# Vercel applies this list after the build too, and would delete the site.
 server/test
 docker-compose.yml
 .claude
